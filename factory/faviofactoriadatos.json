@@ -1,0 +1,9 @@
+{
+	"name": "faviofactoriadatos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "06c2fea8-6a69-4546-bfdd-6b1cb5a1572f",
+		"tenantId": "d65264de-efab-4fce-a2d0-3f03840674af"
+	}
+}
