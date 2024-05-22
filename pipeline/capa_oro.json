@@ -1,0 +1,28 @@
+{
+	"name": "capa_oro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Silver_to_Gold",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/faviomontes15@hotmail.com/Transferir datos de Capa Plata a Capa Oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DataFactory1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
